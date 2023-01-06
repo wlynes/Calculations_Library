@@ -1,0 +1,55 @@
+Works Cited Page
+
+Common examples:
+
+Books - If a whole book is used (or pages here and there throughout the book), page numbers need not be given. If no author is listed, titles should be alphabetized. If a specific chapter is being used, the chapter title and inclusive page numbers should be included. Reports must include the full institution name and location.
+Evans, G. M., and J. C. Furlong. 2003. Environmental biotechnology: Theory and applications. Chichester, UK: Wiley.
+ 
+(no-author)
+Moody’s municipal and government manual. 1988. New York: Moody’s Investors Service.
+ 
+Journal Articles
+The standard format for a paper published in a US journal is as follows:
+ 
+Authors. Year of initial publication. “Title of paper.” Journal abbr., Volume (Issue), Page numbers. CID/page range. DOI or URL.
+ 
+Beskos, D. E. 1987. “Boundary element methods in dynamic analysis.” Appl. Mech. Rev., 40 (1), 1–23. https://doi.org/10.1115/1.3149529
+ 
+
+Journal Articles from ASCE journals:
+Authors. Year of initial publication. “Title of paper.” Journal abbr. Volume (Issue): CID/page range. DOI.
+
+Irish, J. L., and D. T. Resio. 2013. “Method for estimating future hurricane flood probabilities and associated uncertainty.” J. Waterway, Port, Coastal, Ocean Eng. 139 (2): 04013001. https://doi.org/10.1061/(ASCE)WW.1943-5460.0000157.
+
+ 
+Building Codes and Provisions - Building codes, provisions, and standards should be listed alphabetically by the abbreviated name of the promulgating institution.
+Building codes, provisions, and standards should be listed alphabetically by the abbreviated name of the promulgating institution.
+ 
+ACI (American Concrete Institute). 1989. Building code requirement for reinforced concrete. ACI 318-89. Farmington Hills, MI: ACI.
+ 
+BOCA (Building Officials and Code Administrators International). 1993. The BOCA national building code. Country Club Hills, IL: BOCA.
+ 
+CEN (European Committee for Standardization). 1992. Design of steel structures, part 1.1.Eurocode 3, Brussels, Belgium: CEN.
+ 
+Data Sets
+References for data sets should include author name, year of publication, titles (followed by edition or version number) in quotation marks, publisher or distributor, access date, and electronic identifier (DOI or URL).
+ 
+Ansolabehere, S., M. Palmer, and A. Lee. 2014. “Precinct-level election data. V1.” Harvard Election Data Archive. Accessed January 20, 2017. https://doi.org/10.7910/DVN/YN4TLR.
+ 
+Thernstrom, S. 1986. “Boston mobility study, 1880.” ICPSR 7550. Inter-university Consortium for Political and Social Research. Accessed November 28, 2017. https://doi.org/10.3886/ICPSR07550.
+ 
+Conference Proceedings -  Provide the name and location of the publisher. If there is no “publisher,” the name and location of the conference sponsor are required. For sponsors that are virtual groups (without a physical location), include the conference location instead of sponsor location and the URL for the group’s website before the DOI (if provided).
+Eshenaur, S. R., J. M. Kulicki, and D. R. Mertz. 1991. “Retrofitting distortion-induced fatigue cracking of noncomposite steel girder-floorbeam-stringer bridges.” In Proc., 8th Annual Int. Bridge Conf., 380–388. Pittsburgh: Engineers’ Society of Western Pennsylvania.
+
+Tommelein, I. D., and S. Gholami. 2012. “Root causes of clashes in building information models (BIM).” In Proc., 20th Annual Conf. Int. Group for Lean Construction, 121–130. San Diego: International Group for Lean Construction. https://www.iglc.net. https://doi.org/10.5642/jhummath.201102.05.
+
+Karam, G. N. 1991. “Effect of fiber volume on the strength properties of short fiber reinforced cements with application to bending strength of WFRC.” In Vol. 1 of Proc., 6th Technical. Conf. of the American Society for Composites, edited by A. Smith, 548–557. Lancaster, PA: Technomics.
+
+ 
+Website
+The following elements should be included: author’s name or owner of the website (if known); year of publication or last revision (if available; use “n.d.” if no date is available); full title of the specific page, in quotation marks; title of website (if applicable), in italics; the date of access, and the full web address.
+ 
+Arizona Dept. of Commerce. 2005. “Community profile: Hualapai Indian Reservation.” Accessed March 17, 2014. http://www.azcommerce.com/doclib/commune/hualapai.pdf.
+ 
+Foucher, J. 2017. “The role of construction companies before, during, and after disaster.” Construct Connect (blog). Accessed
+October 11, 2017. https://www.constructconnect.com/blog/operating-insights/role-construction-companies-disaster/.

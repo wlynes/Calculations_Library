@@ -1,0 +1,131 @@
+% ==== LOAD PACKAGES ====
+% =======================
+
+\documentclass[11pt,letterpaper]{report}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{makeidx}
+%\usepackage{kpfonts}
+\usepackage[left=1in, right=0.5in, top=1in, bottom=.75in]{geometry}
+\usepackage{pdfpages}
+\usepackage[scaled]{helvet}
+\renewcommand\familydefault{\sfdefault} 
+\usepackage[T1]{fontenc}
+\usepackage{titlesec}
+\usepackage{bookmark}
+
+
+\setcounter{secnumdepth}{4}
+
+
+\setcounter{tocdepth}{4}
+\author{William J. Lynes, P.E.}
+\title{Erection Engineering Calculations}
+\date{\today}
+
+%\includepdf[fitpaper=true,pages=-]{Cover.pdf} 
+%\includepdf[fitpaper=true,pagecommand={},pages=-]{} 
+
+\begin{document}
+%\includepdf[fitpaper=true,pages=-]{Cover.pdf} 
+
+\setcounter{page}{1}
+\pagenumbering{roman}
+\tableofcontents
+
+\newpage
+
+\newcommand\zzz[1]{%
+%\clearpage
+\vspace*{\fill}
+{\centering\fontsize{24pt}{24pt}\bfseries#1\par}
+\vspace*{\fill}
+\clearpage}
+\titleformat{\chapter}{\zzz}{\thesection}{1em}{}
+
+
+\newcommand\yyy[1]{%
+\clearpage
+\vspace*{\fill}
+{\centering\fontsize{18pt}{18pt}\bfseries#1\par}
+\vspace*{\fill}
+\clearpage}
+\titleformat{\section}{\yyy}{\thesection}{1em}{}
+
+\newcommand\aaa[1]{%
+\clearpage
+\vspace*{\fill}
+{\centering\fontsize{14pt}{14pt}\bfseries#1\par}
+\vspace*{\fill}
+\clearpage}
+\titleformat{\subsection}{\aaa}{\thesection}{1em}{}
+
+
+%==== UNCOMMENT (CTRL+U) SUBMISSION HISTORY & TABLE OF REVISIONS IF NEEDED ====
+
+
+\chapter*{Document Control}
+\addcontentsline{toc}{chapter}{Document Control}
+\phantomsection
+
+
+
+
+\setcounter{page}{1}
+\renewcommand{\thepage}{\arabic{chapter}-\arabic{page}}
+\chapter{General Notes}
+%\includepdf[fitpaper=true,pagecommand={},pages=-]{General Notes.pdf} 
+
+
+
+\setcounter{page}{1}
+\renewcommand{\thepage}{\arabic{chapter}-\arabic{page}}
+\chapter{Loads on the Structure During Erection}
+\section{Dead Loads}
+\section{Construction Live Loads}
+\section{Environmental Loads}
+ 
+ 
+ 
+ 
+
+\setcounter{page}{1}
+\renewcommand{\thepage}{\arabic{chapter}-\arabic{page}}
+\chapter{Structural Analysis}
+\section{SA Section 1}
+\section{SA Section 2}
+
+% ==== ADD CHAPTERS AS NEEDED
+% ==== APPENDICES BELOW
+
+
+\setcounter{chapter}{0}
+\setcounter{page}{1}
+\setcounter{secnumdepth}{1}
+\renewcommand{\thepage}{ }
+\renewcommand{\thesection}{}
+
+\chapter{Appendices}
+\setcounter{page}{1}
+\renewcommand{\thepage}{\Alph{section}-\arabic{page}}
+\section{Appendix \Alph{section} - Girder Section Properties}
+
+\setcounter{page}{1}
+\renewcommand{\thepage}{\Alph{section}-\arabic{page}}
+\section{Appendix \Alph{section} - Crane Bearing Pressures}
+
+\setcounter{page}{1}
+\renewcommand{\thepage}{\Alph{section}-\arabic{page}}
+\section{Appendix \Alph{section} - Crane Information}
+
+\setcounter{page}{1}
+\renewcommand{\thepage}{\Alph{section}-\arabic{page}}
+\section{Appendix \Alph{section} - Rigging Hardware Information}
+
+
+
+
+
+
+
+\end{document}

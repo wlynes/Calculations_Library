@@ -1,0 +1,116 @@
+\documentclass[11pt,letterpaper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{makeidx}
+\usepackage{graphicx}
+\usepackage[scaled]{helvet}
+\renewcommand\familydefault{\sfdefault} 
+\usepackage[T1]{fontenc}
+\usepackage[left=0.75in, right=0.5in, top=0.5in, bottom=0.5in]{geometry}
+\usepackage{pdfpages}
+\usepackage[colorlinks=false,urlcolor=black,linkcolor=black,bookmarksopen=true]{hyperref}
+\usepackage{bookmark}
+\usepackage{titlesec}
+\setcounter{secnumdepth}{0}
+\setcounter{tocdepth}{4}
+\title{Erection Analysis - Martin's Phase 12}
+\author{William J. Lynes, P.E.}
+\date{July 8, 2022}
+
+
+\begin{document}
+
+%\includepdf[fitpaper=true,pagecommand={},pages=-]{Cover.pdf} 
+\setcounter{page}{1}
+\pagenumbering{roman}
+\tableofcontents
+
+\newpage
+
+\newcommand\zzz[1]{%
+\clearpage
+\vspace*{\fill}
+{\centering\fontfamily{cmss}\selectfont\fontsize{24pt}{24pt}\bfseries#1\par}
+\vspace*{\fill}
+\clearpage}
+\titleformat{\section}{\zzz}{\thesection}{1em}{}
+
+
+\newcommand\yyy[1]{%
+\clearpage
+\vspace*{\fill}
+{\centering\fontfamily{cmss}\selectfont\fontsize{18pt}{18pt}\bfseries#1\par}
+\vspace*{\fill}
+\clearpage}
+\titleformat{\subsection}{\yyy}{\thesection}{1em}{}
+
+\newcommand\aaa[1]{%
+\clearpage
+\vspace*{\fill}
+{\centering\fontfamily{cmss}\selectfont\fontsize{14pt}{14pt}\bfseries#1\par}
+\vspace*{\fill}
+\clearpage}
+\titleformat{\subsubsection}{\aaa}{\thesection}{1em}{}
+
+
+\setcounter{page}{1}
+\renewcommand{\thepage}{\arabic{page}}
+
+
+%include a pdf format below...
+%\includepdf[fitpaper=true,pagecommand={},pages=-]{} 
+\section{Erection Procedure}
+
+
+
+\setcounter{page}{1}
+\renewcommand{\thepage}{A-\arabic{page}}
+\section{Appendix A - Structural Analysis}
+
+
+\setcounter{page}{1}
+\renewcommand{\thepage}{B-\arabic{page}}
+\section{Appendix B - Analytical Model Output}
+\subsection{Subsection 1}
+
+
+\subsection{Subsection 2}
+
+
+\subsection{Subsection 3}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\end{document}

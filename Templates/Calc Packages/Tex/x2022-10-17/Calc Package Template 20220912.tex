@@ -1,0 +1,105 @@
+\documentclass[11pt,letterpaper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{makeidx}
+\usepackage{graphicx}
+\usepackage{lmodern}
+\usepackage{kpfonts}
+\usepackage[left=1in, right=1in, top=1in, bottom=.75in]{geometry}
+\usepackage{pdfpages}
+\renewcommand\familydefault{\sfdefault} 
+\usepackage[T1]{fontenc}
+\usepackage{titlesec}
+%\usepackage[colorlinks=false,urlcolor=black,linkcolor=black,bookmarksopen=true]{hyperref}
+\usepackage{bookmark}
+%\usepackage{draftwatermark}
+%\SetWatermarkText{
+%\vspace{1in}Progress Set\\\
+%\today}
+%\SetWatermarkScale{.55}
+%\SetWatermarkAngle{45}
+%\SetWatermarkColor[gray]{0.9}
+
+\setcounter{secnumdepth}{0}
+
+
+\setcounter{tocdepth}{4}
+\author{William J. Lynes, P.E.}
+\title{Heat Straightening Calcs\\EPxxx-xxx}
+\date{September 2022}
+
+%\includepdf[fitpaper=true,pages=-]{Cover.pdf} 
+%\includepdf[fitpaper=true,pagecommand={},pages=-]{} 
+
+\begin{document}
+\includepdf[fitpaper=true,pages=-]{Cover.pdf} 
+
+\setcounter{page}{1}
+\pagenumbering{roman}
+\tableofcontents
+
+\newpage
+
+\newcommand\zzz[1]{%
+\clearpage
+\vspace*{\fill}
+{\centering\fontfamily{cmss}\selectfont\fontsize{24pt}{24pt}\bfseries#1\par}
+\vspace*{\fill}
+\clearpage}
+\titleformat{\section}{\zzz}{\thesection}{1em}{}
+
+
+\newcommand\yyy[1]{%
+\clearpage
+\vspace*{\fill}
+{\centering\fontfamily{cmss}\selectfont\fontsize{18pt}{18pt}\bfseries#1\par}
+\vspace*{\fill}
+\clearpage}
+\titleformat{\subsection}{\yyy}{\thesection}{1em}{}
+
+\newcommand\aaa[1]{%
+\clearpage
+\vspace*{\fill}
+{\centering\fontfamily{cmss}\selectfont\fontsize{14pt}{14pt}\bfseries#1\par}
+\vspace*{\fill}
+\clearpage}
+\titleformat{\subsubsection}{\aaa}{\thesection}{1em}{}
+
+\setcounter{page}{1}
+\renewcommand{\thepage}{A.\arabic{page}}
+\section{A. General Notes}
+\includepdf[fitpaper=true,pagecommand={},pages=-]{General Notes.pdf} 
+
+\setcounter{page}{1}
+\renewcommand{\thepage}{B.\arabic{page}}
+\section{B. Dead Loads Applied to Girder}
+\includepdf[fitpaper=true,pagecommand={},pages=-]{DL_Girder 1.pdf} 
+
+\setcounter{page}{1}
+\renewcommand{\thepage}{C.\arabic{page}}
+\section{C. Damage Assessment and Heat Straightening Parameters}
+\includepdf[fitpaper=true,pagecommand={},pages=-]{DA_Girder 1.pdf} 
+
+
+\setcounter{page}{1}
+\renewcommand{\thepage}{ }
+
+\section{Appendices}
+\setcounter{page}{1}
+\renewcommand{\thepage}{App. A.\arabic{page}}
+\subsection{Appendix A - Girder Section Properties}
+\includepdf[fitpaper=true,pagecommand={},pages=-]{Rolled Girder Properties and Bending Strength_Beam 1.pdf} 
+
+
+\setcounter{page}{1}
+\renewcommand{\thepage}{App. B.\arabic{page}}
+\subsection{Appendix B - Jack Cut Sheets}
+\includepdf[fitpaper=true,pagecommand={},pages=-]{Jacks.pdf} 
+
+
+
+
+\end{document}
