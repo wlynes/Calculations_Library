@@ -1,0 +1,160 @@
+% ==== LOAD PACKAGES ====
+% =======================
+
+\documentclass[11pt,letterpaper]{report}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{makeidx}
+%\usepackage{kpfonts}
+\usepackage[left=1in, right=0.5in, top=1in, bottom=.75in]{geometry}
+\usepackage{pdfpages}
+\usepackage[scaled]{helvet}
+\renewcommand\familydefault{\sfdefault} 
+\usepackage[T1]{fontenc}
+\usepackage{titlesec}
+\usepackage{bookmark}
+
+\setcounter{secnumdepth}{4}
+\setcounter{tocdepth}{4}
+
+\author{William J. Lynes, P.E.}
+\title{Erection Procedures}
+\date{\today}
+
+
+%\includepdf[fitpaper=true,pagecommand={},pages=-]{} 
+
+\begin{document}
+\includepdf[fitpaper=true,pages=-]{Cover.pdf} 
+\setcounter{page}{1}
+\pagenumbering{roman}
+\tableofcontents
+
+\newpage
+
+\newcommand\zzz[1]{%
+%\clearpage
+\vspace*{\fill}
+{\centering\fontsize{24pt}{24pt}\bfseries#1\par}
+\vspace*{\fill}
+\clearpage}
+\titleformat{\chapter}{\zzz}{}{1em}{}
+
+
+\newcommand\yyy[1]{%
+\clearpage
+\vspace*{\fill}
+{\centering\fontsize{18pt}{18pt}\bfseries#1\par}
+\vspace*{\fill}
+\clearpage}
+\titleformat{\section}{\yyy}{}{1em}{}
+
+\newcommand\aaa[1]{%
+\clearpage
+\vspace*{\fill}
+{\centering\fontsize{14pt}{14pt}\bfseries#1\par}
+\vspace*{\fill}
+\clearpage}
+\titleformat{\subsection}{\aaa}{}{1em}{}
+
+
+%==== UNCOMMENT (CTRL+U) SUBMISSION HISTORY & TABLE OF REVISIONS IF NEEDED ====
+%\chapter*{Document Control}
+%\addcontentsline{toc}{chapter}{Document Control}
+%\phantomsection
+
+
+\setcounter{page}{1}
+\setcounter{chapter}{0}
+\renewcommand{\thepage}{}
+\renewcommand{\thechapter}{\arabic{chapter}}
+\chapter{Bracing Plan}
+\setcounter{page}{1}
+\renewcommand{\thepage}{\arabic{chapter}-\arabic{page}}
+\section{Location Map}
+%\includepdf[fitpaper=true,pagecommand={},pages=-]{Location Map.pdf} 
+\section{General Notes and Procedure Narrative}
+%\includepdf[fitpaper=true,pagecommand={},pages=-]{Erection Narrative and Bracing Requirements.pdf} 
+%\includepdf[fitpaper=true,pagecommand={},pages=-]{2220805 Engineering Drawings-Crane Positions Sheet-000.pdf} 
+%\includepdf[fitpaper=true,pagecommand={},pages=-]{2220805 Pedestrian Bridge Tower-Bracing and Insert Details-000.pdf} 
+
+\addtocontents{toc}{\vspace{2\baselineskip}}
+
+\setcounter{page}{1}
+\renewcommand{\thepage}{}
+\chapter{Engineering}
+\setcounter{page}{1}
+\renewcommand{\thepage}{\arabic{chapter}-\arabic{page}}
+
+\section{General Notes}
+%\includepdf[fitpaper=true,pagecommand={},pages=-]{General Notes - All.pdf} 
+\section{Design Loads}
+%\includepdf[fitpaper=true,pagecommand={},pages=-]{02_Global Wind Loading.pdf} 
+%\includepdf[fitpaper=true,pagecommand={},pages=-]{02a_Other Loading.pdf} 
+\section{Evaluation of Stability During Erection}
+\subsection{Analysis of Allowable Column Reactions During Erection}
+%\includepdf[fitpaper=true,pagecommand={},pages=-]{Column Connections Evaluation.pdf} 
+\subsection{Analysis of Crane Positions and Stability Narrative}
+%\includepdf[fitpaper=true,pagecommand={},pages=-]{Analysis Discussion.pdf} 
+\section{Design of Pedestrian Bridge Tower Bracing}
+\subsection{Design Loads}
+%\includepdf[fitpaper=true,pagecommand={},pages=-]{01_PB Tower Bracing Design Loads.pdf} 
+\subsection{Bracing Design}
+%\includepdf[fitpaper=true,pagecommand={},pages=-]{02_PB Tower Bracing Design.pdf} 
+\subsection{Foundation Pad Design}
+%\includepdf[fitpaper=true,pagecommand={},pages=-]{03_PB Tower Bracing Foundation Pad Design.pdf} 
+\subsection{Tower Precast Stability Analysis}
+%\includepdf[fitpaper=true,pagecommand={},pages=-]{04_PB Precast Stability.pdf} 
+
+
+
+% ==== APPENDICES BELOW
+
+
+%\setcounter{chapter}{0}
+%\setcounter{page}{-1}
+%\setcounter{secnumdepth}{1}
+\setcounter{section}{0}
+\renewcommand{\thepage}{}
+\renewcommand{\thesection}{}
+
+\addtocontents{toc}{\vspace{2\baselineskip}}
+
+\addcontentsline{toc}{chapter}{Appendices}
+\phantomsection
+\chapter*{Appendices}
+\setcounter{page}{1}
+\renewcommand{\thepage}{\Alph{section}-\arabic{page}}
+
+\section{Appendix \Alph{section} - ASCE-7 Online Hazard Report}
+%\includepdf[fitpaper=true,pagecommand={},pages=-]{Pedestrian Bridge Tower Bracing/ASCEDesignHazardsReport.pdf} 
+
+\setcounter{page}{1}
+\section{Appendix \Alph{section} - HSE Bracing Towers}
+%\includepdf[fitpaper=true,pagecommand={},pages=-]{Pedestrian Bridge Tower Bracing/15-ft Tower Layout.pdf} 
+%\includepdf[fitpaper=true,pagecommand={},pages=-]{Pedestrian Bridge Tower Bracing/20-ft Tower Layout.pdf} 
+%\includepdf[fitpaper=true,pagecommand={},pages=-]
+
+\setcounter{page}{1}
+\section{Appendix \Alph{section} - Two-Way Wall Bracing}
+%\includepdf[fitpaper=true,pagecommand={},pages=-]{Pages from Product Info_Dayton Superior_Tilt-Up Handbook.pdf} 
+
+\setcounter{page}{1}
+\section{Appendix \Alph{section} - Cable Bracing}
+%\includepdf[fitpaper=true,pagecommand={},pages=-]{wire-rope-handbook.pdf} 
+
+\setcounter{page}{1}
+\section{Appendix \Alph{section} - Expansion Anchors}
+%\includepdf[fitpaper=true,pagecommand={},pages=-]{Product Info_Redhead Trubolt Wedge Anchor.pdf} 
+
+\setcounter{page}{1}
+\section{Appendix \Alph{section} - Ferrule Loop Inserts}
+%\includepdf[fitpaper=true,pagecommand={},pages=-]{Ferrule Loop Insert.pdf} 
+%\includepdf[fitpaper=true,pagecommand={},pages=-]{Polk St inserts email with HCG.pdf} 
+
+%\setcounter{page}{1}
+%\section{Appendix \Alph{section} - Cast-in Expanded Coil Inserts}
+%\includepdf[fitpaper=true,pagecommand={},pages=-]{Pages from Product Info_ALP Supply_2022 Precast Accessories Manual and Catalog.pdf} 
+
+
+\end{document}
